@@ -15,16 +15,19 @@ const EventComponent = () => {
     return (
         <>
             <div className="bg-[#15181b] pb-10">
+                {/* Header Logo */}
                 <div className='lg:px-16 px-2'>
                     <Navbar dark={true} />
                 </div>
+                {/* Large Text */}
                 <div className="large-text absolute w-[300px] h-[650px] top-20 text-white/[20%] lg:left-12 md:text-9xl text-7xl font-bold break-words left-2">
                     <h1>ASTRIX</h1>
                     <h1 className="lg:mt-16 mt-14">EVENTS</h1>
                 </div>
-
                 <div className="w-full flex justify-between lg:flex-nowrap flex-wrap gap-6">
                     <div className="lg:w-3/5 w-full">
+                {/* Image Slider */}
+
                         <div className="slider mt-20">
                             <Swiper
                                 slidesPerView={2}
@@ -69,6 +72,7 @@ const EventComponent = () => {
                             <Button />
                         </div>
                     </div>
+                    {/* Text Content */}
                     <div className='lg:w-2/5 w-full'>
                         <div className="content-wrapper px-7 lg:mt-0 mt-10">
                             <h3 className='text-gray-200 font-bold text-lg'>Explore Youre First  Event</h3>
